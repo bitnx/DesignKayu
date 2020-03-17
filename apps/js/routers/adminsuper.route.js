@@ -12,4 +12,10 @@ angular.module("adminsuper.router", [])
                 controller: 'adminsuperHomeController',
                 templateUrl: 'apps/views/adminsuper/home.html'
             })
+            .state("adminsuper-menuutama", {
+                url: '/menuutama',
+                parent: "adminsuper",
+                controller: 'adminsuperMenuUtamaController',
+                templateUrl: 'apps/views/adminsuper/menuutama.html'
+            })
     });
