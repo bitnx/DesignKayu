@@ -3495,6 +3495,7 @@ btn-link
 
 /*--------- Popovers ----------------*/
 
+.break-word{width: 25em; word-wrap: break-word;}
 .popover {
     border: 1px solid rgb(230, 230, 242);
 }
@@ -7008,12 +7009,6 @@ Media Query
     padding: 17px 29px;}
 }
 
-
- 
- 
-
-
-}
 
 
 /* Custom, iPhone Retina */
