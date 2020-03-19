@@ -950,6 +950,7 @@ Borders
 
 .border-top {
     border-top: 1px solid #e6e6f2 !important;
+    
 }
 
 .border-bottom {
@@ -2355,7 +2356,7 @@ Pageheader
 /* ==========================================================================
    Ecommerce Products
    ========================================================================== */
-
+.product-stock{font-size: 12px; margin-bottom: 5px;}
 .product-thumbnail{ border:1px solid #e6e6f2; background-color: #fff; margin-bottom: 30px; }
 .product-img{ text-align: center; padding: 35px 0px;  }
 .product-img-head{position: relative;}
@@ -2416,7 +2417,7 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
 
 
 
-.product-slider{background-color: #fff;  border-top-left-radius: 4px; border-bottom-left-radius: 4px; padding: 110px;}
+.product-slider{background-color: #fff;  border-top-left-radius: 4px; border-bottom-left-radius: 4px;}
 .product-carousel{}
 .product-carousel .carousel-indicators {
     position: absolute;
@@ -2453,7 +2454,7 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
 .product-details{ background-color: #fff; padding: 30px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; position: relative;}
 .product-colors {padding-bottom: 10px; margin-bottom: 10px;}
 .product-size{padding-bottom: 14px; margin-bottom: 10px; position: static;}
-.product-tombol{padding-top: 114px; position: static;}
+.product-tombol{padding-top: 9px; position: static;}
 .product-colors input[type=checkbox], input[type=radio] {
     box-sizing: border-box;
     padding: 0;
@@ -6339,10 +6340,9 @@ Vertical Timeline - by CodyHouse.co
     flex-direction: column;
     flex: 1;
     justify-content: space-between;
-
 }
 .chat-module {
-    height: calc(100vh - 105px);
+    height: calc(80vh);
 }
 .dashboard-main-wrapper .content-container>.chat-module {
     /*height: 100%;*/
@@ -6356,7 +6356,7 @@ Vertical Timeline - by CodyHouse.co
 .chat-module .chat-module-body {
     width: 100%;
     position: absolute;
-    top: 55px;
+    top: 15px;
     height: calc(100% - 4rem);
     overflow-y: scroll;
     padding-right: 1.5rem;
@@ -6482,8 +6482,6 @@ Vertical Timeline - by CodyHouse.co
 
 .chat-module .chat-module-bottom {
     position: relative;
-    padding-top: 1rem;
-    border-top: 1px solid #E9EEF2;
     background: #efeff6;
     
 }
@@ -6802,7 +6800,7 @@ Media Query
 @media only screen and (max-width:1400px) {.product-price{position: initial;}.product-slider {
     background-color: #fff;
     border-top-left-radius: 4px;
-    padding: 131px 28px;}
+    padding: 111px 28px;}
 
     .influencer-profile-data .user-social-media {
     padding: 16px 56px;
