@@ -254,12 +254,12 @@ label {
     display: block;
     width: 100%;
     font-size: 14px;
-    line-height: 25px;
+    line-height: 30px;
     color: #71748d;
     background-color: #fff;
     background-image: none;
     border: 1px solid #d2d2e4;
-    border-radius: 20px;
+    border-radius: 15px;
     text-align: center;
     margin: auto;
 }
@@ -1258,6 +1258,21 @@ Top Header
 .navbar-brand:hover{
     color: #007bff;
 }
+.navbar-left-top{}
+
+.navbar-left-top .nav.item{
+
+}
+
+.navbar-left-top .nav-item:last-child{
+    border: none;
+}
+
+.navbar-left-top .nav-item .nav-link{
+    padding-inline-start: 0px;
+    line-height: 2;
+    color: #82849f;
+}
 .navbar-right-top {}
 
 .navbar-right-top .nav-item {
@@ -1280,7 +1295,7 @@ Top Header
 .top-search-bar {
     padding-top: 17px;
     padding-right: 24px;
-    width: 400px;
+    width: 500px;
     position: absolute;
     float: none;
     right: 35%;
@@ -2437,13 +2452,14 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
 
 .product-details{ background-color: #fff; padding: 30px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; position: relative;}
 .product-colors {padding-bottom: 10px; margin-bottom: 10px;}
-.product-size{padding-bottom: 14px; margin-bottom: 10px; position: relative;}
+.product-size{padding-bottom: 14px; margin-bottom: 10px; position: static;}
+.product-tombol{padding-top: 114px; position: static;}
 .product-colors input[type=checkbox], input[type=radio] {
     box-sizing: border-box;
     padding: 0;
     display: none;
 }
-.product-description{}
+.product-description{ padding-bottom: 14px; margin-bottom: 10px;}
 
 
 .product-colors label {
@@ -2522,12 +2538,13 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
 
 
 
-.product-qty{position: absolute;
+.product-qty{position:relative;
     right: 0;
     top: 0px;}
 
 .quantity {
-  position: relative;
+    position: static;
+    width: 100%;
 }
 
 .product-qty input[type=number]::-webkit-inner-spin-button,
@@ -2552,6 +2569,7 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
   margin: 0;
   padding-left: 20px;
   border: 1px solid #eee;
+  position: relative;
 }
 
 .quantity input:focus {
