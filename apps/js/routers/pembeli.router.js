@@ -21,4 +21,9 @@ angular.module("pembeli.router", [])
                 parent: "pembeli",
                 templateUrl: 'apps/views/pembeli/profilpenjual.html'
             })
+            .state("pembeli-keranjang", {
+                url: '/keranjang',
+                parent: "pembeli",
+                templateUrl: 'apps/views/pembeli/keranjang.html'
+            })
     });
